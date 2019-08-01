@@ -21,7 +21,7 @@ public class LoginDatabaseAdapter {
     static final String DATABASE_CREATE = "create table LOGIN( ID integer primary key autoincrement,FIRSTNAME  text,LASTNAME  text,USERNAME text,PASSWORD text); ";
 
 
-    // Variable to hold the database instance
+    // Variable to hold the database instanc
     public static SQLiteDatabase db;
     // Context of the application using the database.
     private final Context context;
