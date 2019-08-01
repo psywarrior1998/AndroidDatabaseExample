@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="8dp">
+
+    <TextView
+        android:id="@+id/tSignUP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@android:dimen/notification_large_icon_width"
+        android:layout_marginTop="110dp"
+        android:text="Sign Up"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="25sp"
+        tools:layout_marginLeft="160dp" />
+
+    <EditText
+        android:id="@+id/tFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tSignUP"
+        android:layout_marginLeft="@android:dimen/notification_large_icon_width"
+        android:layout_marginTop="53dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="First Name"
+        tools:layout_marginLeft="110dp" />
+
+    <EditText
+        android:id="@+id/tPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tEmail"
+        android:layout_alignStart="@+id/tEmail"
+        android:layout_alignLeft="@+id/tEmail"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="password"
+        tools:layout_marginLeft="110dp" />
+
+    <EditText
+        android:id="@+id/tLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tFirstName"
+        android:layout_alignStart="@+id/tFirstName"
+        android:layout_alignLeft="@+id/tFirstName"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Last Name"
+        tools:layout_marginLeft="110dp" />
+
+    <EditText
+        android:id="@+id/tEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tLastName"
+        android:layout_alignEnd="@+id/tLastName"
+        android:layout_alignRight="@+id/tLastName"
+        android:layout_marginLeft="@android:dimen/notification_large_icon_width"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Email ID"
+        tools:layout_marginLeft="110dp" />
+
+    <Button
+        android:id="@+id/buttonOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tPassword"
+        android:layout_alignEnd="@+id/tPassword"
+        android:layout_alignRight="@+id/tPassword"
+        android:layout_marginLeft="@android:dimen/notification_large_icon_width"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginRight="66dp"
+        android:background="@color/colorAccent"
+        android:onClick="OK"
+        android:text="OK"
+        tools:layout_marginLeft="110dp" />
+</RelativeLayout>
+
